@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:#cab9bc;
+    color:#a8112ab9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+}
+.navbar-container{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraf{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    padding-top: 100px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
